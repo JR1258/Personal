@@ -7,9 +7,9 @@ Math.(Something) classes: https://www.geeksforgeeks.org/java-math-class/
 
 Processing Website: https://processing.org/
 
-***Codingbat***(Gives questions on all types of things): https://codingbat.com/java 
+***Codingbat*** (Gives questions on all types of things): https://codingbat.com/java 
 
-Slidedecks:
+# Slidedecks:
 
   Strings: (COMING SOON)
   
