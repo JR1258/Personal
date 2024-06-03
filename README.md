@@ -34,15 +34,17 @@ Download: [Python.org](https://www.python.org/downloads/)
 
 **You will still require a text file maker or you can use terminal**
 
+
+
+## Setting up Virtual Enviorment:
+
 ### Visual Studio Code: 
 
 VS Code download: [VScode](https://code.visualstudio.com/download)
 
-## Setting up Virtual Enviorment:
+#### Enviorment Setup Python: [VSCode website](https://code.visualstudio.com/docs/python/environments)
 
-### Enviorment Setup Python: [VSCode website](https://code.visualstudio.com/docs/python/environments)
-
-  ### Extensions that are good:
+  #### Extensions that are good:
   
   General Python: [VScode Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
