@@ -33,7 +33,7 @@ public class ChatCalc extends EasyApp {
     Button Addition = addButton("(+)", 125, 300, 50, 30, this);
     Button Subtraction = addButton("(-)", 25, 330, 50, 30, this);
     Button Average = addButton("Average", 25, 390, 150, 30, this);
-
+    
     // custom math operations
     Button Root = addButton("(√)", 75, 330, 50, 30, this);
     Button Power = addButton("(^)", 125, 330, 50, 30, this);
@@ -52,7 +52,7 @@ public class ChatCalc extends EasyApp {
     // is the equal sign button
     Button Calculate = addButton("=", 125, 240, 50, 30, this); // This button shows the final result of the calculator
 
-    Label textscreeen = addLabel("Calculator - Jonah", 45, 45, 150, 50, this); // Shows the title of the calculator
+    Label textscreeen = addLabel("Calculator", 65, 45, 150, 50, this); // Shows the title of the calculator
 
     @Override
     public void actions(Object source, String command) {
@@ -293,14 +293,14 @@ public class ChatCalc extends EasyApp {
                     result = (num1 + num2) / 2;
                 }
                 if (sign.equals("sin")) {
-                    result = Math.sin(Math.toDegrees(num1)); //It can also be changed these to Math.toDegrees(num1) if i want to use degrees for the trig operations
+                    result = Math.sin(Math.toRadians(num1)); //It can also be changed these to Math.toDegrees(num1) if i want to use degrees for the trig operations
                 }
                 if (sign.equals("cos")) {
-                    result = Math.cos(Math.toDegrees(num1));
+                    result = Math.cos(Math.toRadians(num1));
                 }
                 if (sign.equals("tan")) {
                     
-                    result = Math.tan(Math.toDegrees(num1));
+                    result = Math.tan(Math.toRadians(num1));
                 }
 
                 // This is there to remove the .0 from the end of the number if it's a whole number (Ex. 5.0 -> 5)

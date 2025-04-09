@@ -107,6 +107,12 @@ public class EasyApp extends Frame implements ActionListener, ItemListener, Mous
        return newComp;
    }
 
+  
+  
+                         
+
+
+
    public JLabel addJLabel(ImageIcon img, int left, int top, int width, int height,
                          MouseListener listener)
    {
