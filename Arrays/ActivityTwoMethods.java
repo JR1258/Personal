@@ -4,35 +4,36 @@ public class ActivityTwoMethods {
 
 	
 
-	static void m1() {
+	static void m1(int Year) {
 	    int current = 2024;
 		
-		Scanner reader = new Scanner(System.in);
 	    
-	    System.out.println("Enter birth year:");
-		int Year = reader.nextInt();
-		
-		System.out.println(current - Year);
+	    
+		System.out.println("Your age is: " + (current - Year));
 
 	}
-	static String m2() {
+	static String m2(String Name) {
 	
-    Scanner reader = new Scanner(System.in);
 	
+		int loc = (Name.indexOf(' '));	
 		
-	System.out.println("Enter Name:");
-	String Name = reader.nextLine();
-		
-	int loc = (Name.indexOf(' '));
 	
     return(Name.substring(loc+1) + ", " + Name.substring(0,loc));
 	}
 	
 	public static void main(String[] args) {
+		Scanner reader = new Scanner(System.in);
 
+		System.out.println("Enter birth year:");
+		int Year = reader.nextInt();
 		
-		m1();
-		System.out.println(m2());
+		
+		m1(Year);
+
+		System.out.println("Enter Name:");
+		String Name = reader.nextLine();
+		 Name = reader.nextLine();
+		System.out.println(m2(Name));
 	}
 	
 }
