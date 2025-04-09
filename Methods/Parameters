@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Parameters {
+
+	
+
+	static void m1(int num1, int num2) {
+	    int current = 2024;
+		
+		S
+
+	}
+	
+	public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.println("Enter first number: ");
+		int num1 = reader.nextInt();   
+		
+		System.out.println("Enter second number: ")
+		int num2 = reader.nextInt();   
+
+
+		System.out.println(m1());
+	}
+	
+}
