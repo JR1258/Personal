@@ -24,7 +24,8 @@ public class ActivityTwoMethods {
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 
-		System.out.println("Enter birth year:");
+		System.out.println("Enter bi
+		rth year:");
 		int Year = reader.nextInt();
 		
 		
