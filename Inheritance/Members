@@ -60,5 +60,5 @@ public class Members {
         this.salary = salary;
     }
 
-    
+    System.out.println("Name: " + name);
 }
