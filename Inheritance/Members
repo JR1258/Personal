@@ -59,4 +59,7 @@ public class Members {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    System.out.println("Name: " + name);
+    System.out.println("Phone Number: " + phoneNumber);
 }
